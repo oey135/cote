@@ -1,10 +1,10 @@
 # [level 0] a와 b 출력하기 - 181951 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181951) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181951?language=c) 
 
 ### 성능 요약
 
-메모리: 71.2 MB, 시간: 190.55 ms
+메모리: 4.14 MB, 시간: 4.81 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 06월 10일 21:02:11
+2025년 06월 10일 21:03:08
 
 ### 문제 설명
 
