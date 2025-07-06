@@ -1,10 +1,10 @@
 # [level 0] 길이에 따른 연산 - 181879 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181879) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181879?language=c) 
 
 ### 성능 요약
 
-메모리: 75.5 MB, 시간: 0.03 ms
+메모리: 4.14 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 07월 06일 21:57:17
+2025년 07월 06일 21:58:51
 
 ### 문제 설명
 
