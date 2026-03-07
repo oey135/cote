@@ -1,30 +1,16 @@
-import java.util.*;
-
 class Solution {
     public String solution(String s) {
-        
-        Map<Character,Integer> countMap = new TreeMap<>();
-        char[] string = s.toCharArray();
-        for(char ch : string) {
-            countMap.put(ch, countMap.getOrDefault(ch, 0)+1);
+        int[] alpha = new int[26];
+        for(char c : s.toCharArray()){
+            alpha[c - 'a']++;
         }
-        
-        int countMin=1001;
-        for(int c : countMap.values()) {
-            countMin = Math.min(countMin, c);
-        }
-        
-        int minCount=0;
-        String answer = "";
-        for(Map.Entry<Character,Integer> entry : countMap.entrySet()) {
-            if(countMin == entry.getValue()) {
-                minCount++;
-                if(minCount>=1) {
-                    answer += entry.getKey();
-                }
+
+        StringBuilder answer = new StringBuilder();
+        for(int i = 0; i < 26; i++){
+            if(alpha[i] == 1){
+                answer.append((char)(i + 'a'));
             }
         }
-        
-        return answer;
+        return answer.toString();
     }
 }

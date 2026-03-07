@@ -1,10 +1,10 @@
 # [level 0] 한 번만 등장한 문자 - 120896 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120896#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120896) 
 
 ### 성능 요약
 
-메모리: 85 MB, 시간: 3.35 ms
+메모리: 80.6 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 03월 08일 03:33:15
+2026년 03월 08일 03:43:51
 
 ### 문제 설명
 
