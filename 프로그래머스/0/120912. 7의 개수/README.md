@@ -1,10 +1,10 @@
 # [level 0] 7의 개수 - 120912 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120912) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120912?language=c) 
 
 ### 성능 요약
 
-메모리: 87.3 MB, 시간: 0.02 ms
+메모리: 4.4 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 03월 09일 00:04:53
+2026년 03월 09일 00:07:13
 
 ### 문제 설명
 
