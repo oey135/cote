@@ -1,24 +1,15 @@
-import java.math.*;
+import java.util.*;
 
 class Solution {
     public int solution(int[] array, int n) {
-        
-        int[] temp = new int[array.length];
-        
-        for(int i=0; i<array.length; i++) {
-            temp[i] = Math.abs(array[i]-n);
-        }
-        
-        int answer=0, min=101;
-        for(int i=0; i<array.length; i++) {
-            if(temp[i] < min) {
-                min = temp[i];
-                answer = array[i];
-            }
-            else if(temp[i] == min) {
-                answer = array[i] < answer ? array[i] : answer;
+        int answer = 0;
+        Arrays.sort(array);
+        for(int i = 1 ; i < array.length ; i++){
+            if(Math.abs(n-array[0]) > Math.abs(n-array[i])){
+                array[0] = array[i];
             }
         }
+        answer = array[0];
         return answer;
     }
 }
