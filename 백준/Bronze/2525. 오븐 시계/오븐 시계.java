@@ -8,11 +8,11 @@ class Main {
 
         m += need;
         while(m>59) {
-            m-=60;
+            m = m-60;
             h++;
         }
         while(h>23) {
-            h-=24;
+            h = h-24;
         }
         System.out.print(h+" "+m);
     }
