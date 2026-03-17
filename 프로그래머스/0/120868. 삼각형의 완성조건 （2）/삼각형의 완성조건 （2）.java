@@ -1,10 +1,12 @@
 class Solution {
     public int solution(int[] sides) {
-        int answer = 0;
-        int big=0;
-        for(int i=0; i<sides.length; i++) {
-            big < sides[i] ? : sides[i];
-        }
+        int answer=0;
+        if(sides[0] < sides[1]) {
+            int temp = sides[0];
+            sides[0] = sides[1];
+            sides[1] = temp;
+        }        
+        answer = (sides[0]+sides[1])-(sides[0]-sides[1])-1;
         
         return answer;
     }
