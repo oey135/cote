@@ -1,10 +1,10 @@
 # [level 0] 짝수 홀수 개수 - 120824 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120824) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120824?language=javascript) 
 
 ### 성능 요약
 
-메모리: 86.8 MB, 시간: 0.02 ms
+메모리: 33.8 MB, 시간: 8.42 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 06월 04일 16:51:22
+2026년 04월 23일 17:03:56
 
 ### 문제 설명
 
