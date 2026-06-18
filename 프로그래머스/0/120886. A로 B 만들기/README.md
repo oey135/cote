@@ -1,10 +1,10 @@
 # [level 0] A로 B 만들기 - 120886 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120886) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120886#qna) 
 
 ### 성능 요약
 
-메모리: 83.2 MB, 시간: 1.24 ms
+메모리: 74.3 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 09월 16일 22:19:59
+2026년 06월 18일 23:57:11
 
 ### 문제 설명
 
