@@ -1,15 +1,9 @@
-import java.util.ArrayList;
 class Solution {
     public int[] solution(int n, int k) {
-        ArrayList<Integer> list = new ArrayList<>();
-        int num = k;
-        while(num <= n) {
-            list.add(num);
-            num+=k;
+        int[] arr = new int[n/k];
+        for(int i=0; i<arr.length; i++) {
+            arr[i] = k+(k*i);
         }
-        
-        return list.stream()
-                .mapToInt(i -> i)
-                .toArray();
+        return arr;
     }
 }
